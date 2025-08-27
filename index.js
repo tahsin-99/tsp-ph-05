@@ -50,7 +50,7 @@ for(const callButton of callButtons){
 
          const coinCount=getElement('coin-count')
         if(coinCount.innerText > 0){
-            alert(`📞calling ${title} ${number}...`)
+            alert(`📞Calling ${title} ${number}....`)
        const newCoinCount=Number(coinCount.innerText)-20
        coinCount.innerText=newCoinCount
 
