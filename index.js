@@ -15,6 +15,25 @@ for(let heartBtn of heartBtns){
        heartCount.innerText=newHeartCount
     })
 }
+// copy
+const copyButtons=document.getElementsByClassName('copy-btn');
+for(const copyButton of copyButtons){
+    copyButton.addEventListener('click',function(){
+         const card = copyButton.closest('div.border-2');
+         
+         const number=card.querySelector('h2').innerText;
+         navigator.clipboard.writeText(number)
+
+         alert(`Number copied: ${number}`)
+         const copyCount=getElement('copy-count')
+          const newCopyCount=Number(copyCount.innerText)+1
+       copyCount.innerText=newCopyCount
+    })
+}
+
+
+
+
 
 // call btn
 
