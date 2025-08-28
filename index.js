@@ -57,7 +57,7 @@ for (const callButton of callButtons) {
             const newContainer = getElement('call-history');
             const newDiv = document.createElement('div')
             newDiv.innerHTML = `
-        <div class=" mx-auto w-[450px] h-[83px] bg-gray-200 p-4 flex justify-between item-center rounded-lg">
+        <div class=" mx-auto w-[400px] h-[83px] bg-gray-200 p-4 flex justify-between item-center rounded-lg">
                    <div>
                      <h2 class="font-semibold text-lg">${title}</h2>
                     <p class="text-[18px]">${number}</p>
