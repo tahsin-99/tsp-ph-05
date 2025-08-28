@@ -37,7 +37,7 @@ c.It will be a cleaner Code.
 
 #5.
 a.preventDefault() stops the browser’s default action
-<a href="https://hlw.com" id="link">Click me</a>
+<a href="https://google.com"id="link">Click me</a>
 
 
 document.getElementById('link').addEventListener('click', function(e) {
